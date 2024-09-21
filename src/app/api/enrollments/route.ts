@@ -46,7 +46,7 @@ export const GET = async () => {
     return NextResponse.json({
         ok: true,
         enrollments: null //replace null with enrollment data!
-    }
+    })
   }
 
   const courseNoList = [];
